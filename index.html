@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himel Paul - Web Developer Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <meta name="description" content="Professional Web Developer Portfolio - Himel Paul specializes in modern web development using React, Node.js, and cutting-edge technologies">
+  <meta name="keywords" content="Web Developer, React.js, Node.js, JavaScript, Portfolio, Full Stack Developer, Himel Paul">
+  <meta name="author" content="Himel Paul">
+  <meta name="copyright" content="Himel Paul">
+</head>
+
+<body>
+  <!-- Header Navigation -->
+  <header class="header" id="header">
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <a href="#about" class="navbar-link active" data-nav-link>Home</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#projects" class="navbar-link" data-nav-link>Projects</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#experience" class="navbar-link" data-nav-link>Experience & Achievements</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#contact" class="navbar-link" data-nav-link>Contact Me</a>
+        </li>
+      </ul>
+      
+      <button class="mobile-nav-toggle" aria-label="toggle mobile navigation" data-nav-toggle>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+  </header>
+
+  <main class="main" id="main">
+
+    <!-- #ABOUT -->
+    <section class="about" id="about" data-page="about">
+      <div class="container">
+        <div class="about-content">
+          <!-- Left Side - About Text & Buttons -->
+          <div class="about-left">
+            <header class="section-header">
+              <h2 class="section-title">About Me</h2>
+            </header>
+            
+            <div class="about-text">
+              <p>
+                Hi! I'm <strong>Himel Paul</strong>, a passionate Web Developer and Computer Science student in Dhaka, Bangladesh. I specialize in building modern, responsive websites and web applications using technologies like HTML, CSS, JavaScript, React.js, Node.js, and more.
+              </p>
+              <p>
+                I love solving real-world problems with code, whether it's developing machine learning models, creating secure web platforms, or building user-friendly interfaces. My goal is to deliver high-quality, efficient, and impactful solutions that make a difference. I'm always eager to learn new technologies.
+              </p>
+            </div>
+            
+            <!-- Contact Information -->
+            <div class="hero-contact">
+              <div class="contact-item">
+                <ion-icon name="mail-outline"></ion-icon>
+                <span class="contact-text">himelpaul23@gmail.com</span>
+              </div>
+              
+              <div class="contact-item">
+                <ion-icon name="call-outline"></ion-icon>
+                <span class="contact-text">+880 1326 191292</span>
+              </div>
+              
+              <div class="contact-item">
+                <ion-icon name="location-outline"></ion-icon>
+                <span class="contact-text">Mirpur, Dhaka, Bangladesh</span>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="btn-group">
+              <button onclick="downloadResume()" class="btn btn-download">
+                <div class="btn-download-content">
+                  <span class="btn-download-text">Download Resume</span>
+                </div>
+              </button>
+            </div>
+            <!-- Social Media Links -->
+            <div class="hero-social">
+
+                <a href="https://www.facebook.com/rexeslab23" target="_blank" class="social-link" aria-label="Facebook">
+                  <i class="fab fa-facebook"></i>
+                <p>
+                  Hi! I'm <strong>Himel Paul</strong>, a passionate Computer Science student and developer based in Dhaka, Bangladesh. I specialize in building modern, secure, and user-friendly web applications using technologies like C++, Python, Java, HTML, CSS, JavaScript, and React.
+                </p>
+                <p>
+                  I enjoy solving real-world problems—whether it's developing machine learning models, creating dynamic websites, or working on innovative tech projects. I'm dedicated to continuous learning and delivering impactful solutions.
+                </p>
+                <a href="https://github.com/rexeslab23" target="_blank" class="social-link" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://leetcode.com/u/himelpaul_23/" target="_blank" class="social-link" aria-label="LeetCode">
+                  <i class="fas fa-code"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/himelpaul13579/" target="_blank" class="social-link" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+
+            </div>
+          </div>
+          
+          <!-- Right Side - Profile -->
+          <div class="about-right">
+            <figure class="about-avatar">
+              <img src="./assets/images/himel.webp" alt="Himel Paul" width="500" height="500">
+            </figure>
+          </div>
+        </div>
+        
+        <!-- Education Section (Full Width) -->
+        <div class="education-section">
+          <h3 class="education-title">Education</h3>
+          <div class="education-timeline">
+            
+            <div class="education-item">
+              <div class="education-icon">
+                <ion-icon name="school-outline"></ion-icon>
+              </div>
+              <div class="education-content">
+                <h4 class="education-degree">B.Sc. in Computer Science & Engineering</h4>
+                <h5 class="education-institution">Green University of Bangladesh</h5>
+                <div class="education-meta">
+                  <span class="education-gpa">CGPA: 3.23/4.00</span>
+                  <span class="education-date"> <i>Jan 2022 - Dec 2025</i></span>
+                </div>
+                <p class="education-description">
+                  Currently pursuing my bachelor's degree with a focus on Software Engineering and Artificial Intelligence. Developed several web projects, including a dynamic blogging platform and a mental health support system. Relevant coursework: Data Structures, Algorithms, Machine Learning, Web Development.
+                </p>
+              </div>
+            </div>
+            <hr class="edu-divider">
+            <div class="education-item">
+              <div class="education-icon">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <div class="education-content">
+                <h4 class="education-degree">Higher Secondary Certificate (HSC)</h4>
+                <h5 class="education-institution">Kurigram Government College</h5>
+                <div class="education-meta">
+                  <span class="education-gpa">GPA: 5.00/5.00</span>
+                  <span class="education-date">Passing Year: 2020</span>
+                </div>
+                <p class="education-description">
+                  Completed HSC in the Science group, building a strong foundation in Mathematics, Physics, and Chemistry. Achieved outstanding academic results and developed a passion for problem-solving and technology.
+                </p>
+              </div>
+            </div>
+            <hr class="edu-divider">
+            <div class="education-item">
+              <div class="education-icon">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <div class="education-content">
+                <h4 class="education-degree">Secondary School Certificate (SSC)</h4>
+                <h5 class="education-institution">Kurigram Collectorate School & College</h5>
+                <div class="education-meta">
+                  <span class="education-gpa">GPA: 5.00/5.00</span>
+                  <span class="education-date">Passing Year: 2018</span>
+                </div>
+                <p class="education-description">
+                  Completed SSC with excellent results in Science. Built a strong interest in computers and technology, which inspired me to pursue a career in web development and software engineering.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- #SKILLS -->
+    <section class="skills" id="skills" data-page="skills">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Skills</h2>
+        </header>
+
+        <div class="skills-container">
+          <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-cplusplus-plain colored"></i>
+            </div>
+            <span class="skill-name">C++</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-python-plain colored"></i>
+            </div>
+            <span class="skill-name">Python</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-java-plain colored"></i>
+            </div>
+            <span class="skill-name">Java</span>
+          </div>
+          
+          <!-- Web Development -->
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-html5-plain colored"></i>
+            </div>
+            <span class="skill-name">HTML</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-css3-plain colored"></i>
+            </div>
+            <span class="skill-name">CSS</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-javascript-plain colored"></i>
+            </div>
+            <span class="skill-name">JavaScript</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-react-original colored"></i>
+            </div>
+            <span class="skill-name">React.js</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-nodejs-plain colored"></i>
+            </div>
+            <span class="skill-name">Node.js</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-express-original"></i>
+            </div>
+            <span class="skill-name">Express.js</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-mongodb-plain colored"></i>
+            </div>
+            <span class="skill-name">MongoDB</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-php-plain colored"></i>
+            </div>
+            <span class="skill-name">PHP</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-mysql-plain colored"></i>
+            </div>
+            <span class="skill-name">MySQL</span>
+          </div>
+          
+          <!-- Tools & Technologies -->
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-tensorflow-original colored"></i>
+            </div>
+            <span class="skill-name">Machine Learning</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-git-plain colored"></i>
+            </div>
+            <span class="skill-name">Git</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-github-original"></i>
+            </div>
+            <span class="skill-name">GitHub</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="devicon-docker-plain colored"></i>
+            </div>
+            <span class="skill-name">Docker</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <ion-icon name="cube-outline"></ion-icon>
+            </div>
+            <span class="skill-name">AutoCAD</span>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-icon">
+              <ion-icon name="desktop-outline"></ion-icon>
+            </div>
+            <span class="skill-name">MS Office</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- #PROJECTS -->
+    <section class="projects" id="projects" data-page="projects">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Projects</h2>
+        </header>
+
+        <div class="projects-filter">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="filter-btn active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn" data-filter-btn>Web development</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn" data-filter-btn>Web design</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn" data-filter-btn>Applications</button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+            </ul>
+
+        </div>
+
+        <div class="projects-grid">
+          
+          <div class="project-card active" data-filter-item data-category="web development">
+            <figure class="project-image">
+              <img src="./assets/images/project-1.jpg" alt="Portfolio Website" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="https://github.com/rexeslab23/Mental-Health-Risk-Prediction" class="project-link" aria-label="View Project" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </figure>
+            <div class="project-content">
+              <h3 class="project-title">Portfolio Website</h3>
+              <p class="project-category">Web Development</p>
+            </div>
+          </div>
+
+          <div class="project-card active" data-filter-item data-category="web development">
+            <figure class="project-image">
+              <img src="./assets/images/project-2.png" alt="Mental Health Risk Prediction" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="https://github.com/rexeslab23/Mental-Health-Risk-Prediction" class="project-link" aria-label="View Project" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </figure>
+            <div class="project-content">
+              <h3 class="project-title">Mental Health Risk Prediction</h3>
+              <p class="project-category">Web Development</p>
+            </div>
+          </div>
+
+          <div class="project-card active" data-filter-item data-category="applications">
+            <figure class="project-image">
+              <img src="./assets/images/project-3.jpg" alt="CipherX" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="https://github.com/rexeslab23/CipherX" class="project-link" aria-label="View Project" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </figure>
+            <div class="project-content">
+              <h3 class="project-title">CipherX - Multi-Layer File Encryption Tool</h3>
+              <p class="project-category">Applications</p>
+            </div>
+          </div>
+
+          <div class="project-card active" data-filter-item data-category="web development">
+            <figure class="project-image">
+              <img src="./assets/images/project-4.png" alt="Rexes Lab" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="https://github.com/rexeslab23/Rexes-Lab" class="project-link" aria-label="View Project" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </figure>
+            <div class="project-content">
+              <h3 class="project-title">Rexes Lab – Dynamic Blogging Platform</h3>
+              <p class="project-category">Web Development</p>
+            </div>
+          </div>
+
+          <div class="project-card active" data-filter-item data-category="applications">
+            <figure class="project-image">
+              <img src="./assets/images/project-5.png" alt="MyMed" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="https://github.com/rexeslab23/MyMed" class="project-link" aria-label="View Project" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </figure>
+            <div class="project-content">
+              <h3 class="project-title">MyMed – Medicine Inventory & Pharmacy Locator</h3>
+              <p class="project-category">Applications</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- #EXPERIENCE & ACHIEVEMENTS -->
+    <section class="experience" id="experience" data-page="experience">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Experience & Achievements</h2>
+        </header>
+
+        <div class="experience-timeline">
+          <div class="experience-item">
+            <div class="experience-icon">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+            <div class="experience-content">
+              <h3 class="experience-title">1st Place Winner | GUB Robotics Competition</h3>
+              <p class="experience-description">
+                Led a team of 15 to victory by designing and building an autonomous line-following robot from scratch. Oversaw the entire project lifecycle—from initial concept and circuit design to coding, testing, and final deployment. Demonstrated strong leadership, technical innovation, and hands-on engineering skills. This achievement not only showcased my ability to work under pressure and meet deadlines, but also strengthened my teamwork and project management capabilities.
+              </p>
+              <span class="experience-date">Mar 2023</span>
+            </div>
+          </div>
+          <hr class="edu-divider">
+          <div class="experience-item">
+            <div class="experience-icon">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <div class="experience-content">
+              <h3 class="experience-title">Professional Training in Python | EDGE Project, ICT Division <a href="https://training.edge.gov.bd/certificate-validation?certificate_no=EDGE-DSTS-123-4538-00020" target="_blank" rel="noopener noreferrer" style="color: #ff7675; text-decoration: none;">🔗</a></h3>
+              <p class="experience-description">
+                Successfully completed an intensive 80-hour government-sponsored program on Python and Django, conducted by IIT under the EDGE Project. Developed real-world backend applications, REST APIs, and dynamic web solutions. The training emphasized best practices in software development, version control, and collaborative coding. This experience deepened my understanding of modern web frameworks and prepared me for advanced backend engineering roles.
+              </p>
+              <span class="experience-date">Nov 2024 - Feb 2025</span>
+            </div>
+          </div>
+          <hr class="edu-divider">
+          <div class="experience-item">
+            <div class="experience-icon">
+              <ion-icon name="flask-outline"></ion-icon>
+            </div>
+            <div class="experience-content">
+              <h3 class="experience-title">Research Trainee | Green University of Bangladesh</h3>
+              <p class="experience-description">
+                Engaged in cutting-edge research to develop and fine-tune deep learning models for an AI-driven mental health support system. Specialized in natural language processing (NLP), empathetic response generation, and advanced regression techniques using Python and Transformers. Collaborated with faculty and peers to publish findings, present at seminars, and contribute to the university’s AI research initiatives. This role enhanced my analytical thinking, research methodology, and technical writing skills.
+              </p>
+              <span class="experience-date">Jan 2025 - Dec 2025</span>
+            </div>
+          </div>
+          <hr class="edu-divider">
+          <div class="experience-item">
+            <div class="experience-icon">
+              <ion-icon name="storefront-outline"></ion-icon>
+            </div>
+            <div class="experience-content">
+              <h3 class="experience-title">Sales Assistant | Family Grocery Store</h3>
+              <p class="experience-description">
+                Managed all aspects of daily store operations, including customer service, billing, inventory management, and cash handling. Implemented efficient record-keeping systems and introduced digital tools to streamline processes. Developed strong communication, negotiation, and problem-solving skills by interacting with a diverse customer base. This experience taught me the value of responsibility, adaptability, and delivering excellent service in a fast-paced environment.
+              </p>
+              <span class="experience-date">Jan 2015 - Dec 2021</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- #TESTIMONIALS & CONTACT -->
+    <section class="testimonials-contact" id="contact" data-page="contact">
+      <div class="container">
+        <!-- Single Big Card Container -->
+        <div class="main-card">
+          <div class="main-card-grid">
+            
+            <!-- Testimonials Section -->
+            <div class="testimonials-section">
+              <header class="section-header">
+                <h2 class="section-title">Testimonials</h2>
+              </header>
+
+              <div class="testimonials-grid">
+                <div class="testimonial-card">
+                  <div class="testimonial-content">
+                    <div class="testimonial-avatar">
+                      <img src="./assets/images/avatar-1.png" alt="Arun Kundu" width="60" height="60">
+                    </div>
+                    <div class="testimonial-text">
+                      <blockquote>
+                        "Being Himel’s uncle and a software engineer, I’ve closely guided his journey in tech. I’ve reviewed his work and mentored him throughout. Himel is dedicated, learns quickly, and always strives for excellence in every project."
+                      </blockquote>
+                      <cite class="testimonial-author">
+                        <strong>Arun Kundu</strong>
+                        <span>Software Engineer</span>
+                      </cite>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonial-card">
+                  <div class="testimonial-content">
+                    <div class="testimonial-avatar">
+                      <img src="./assets/images/avatar-2.png" alt="Fatema Tuz Johora" width="60" height="60">
+                    </div>
+                    <div class="testimonial-text">
+                      <blockquote>
+                        "As Himel’s teacher, I consider him an outstanding student. He is diligent, curious, and always eager to learn. His commitment to his studies and his passion for technology set him apart."
+                      </blockquote>
+                      <cite class="testimonial-author">
+                        <strong>Fatema Tuz Johora</strong>
+                        <span>Teacher</span>
+                      </cite>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonial-card">
+                  <div class="testimonial-content">
+                    <div class="testimonial-avatar">
+                      <img src="./assets/images/avatar-3.png" alt="Dip Roy" width="60" height="60">
+                    </div>
+                    <div class="testimonial-text">
+                      <blockquote>
+                        "I know Himel’s potential very well. I regularly review his work and give him honest feedback. He consistently impresses me with his skills and determination—he truly has what it takes to succeed."
+                      </blockquote>
+                      <cite class="testimonial-author">
+                        <strong>Dip Roy</strong>
+                        <span>Web Developer</span>
+                      </cite>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="contact-section">
+              <header class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+              </header>
+
+              <div class="contact-content">
+
+                <form class="contact-form" action="#" method="POST">
+                  <h3 class="form-title">Send me a message</h3>
+                  
+                  <div class="input-group">
+                    <input type="text" name="fullname" class="form-input" placeholder="Full Name" required>
+                    <input type="email" name="email" class="form-input" placeholder="Email Address" required>
+                  </div>
+                  
+                  <textarea name="message" class="form-input" placeholder="Your Message" rows="6" required></textarea>
+                  
+                  <button type="submit" class="form-btn">
+                    <ion-icon name="paper-plane"></ion-icon>
+                    <span>Send Message</span>
+                  </button>
+                </form>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        © 2025 Himel Paul. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
